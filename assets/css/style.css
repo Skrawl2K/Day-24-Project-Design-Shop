@@ -1,0 +1,102 @@
+/* ======================== ASSETS ==================== */
+
+/* Font: Karla
+Farbe: #323A45 / #848484 */
+
+/* ======================== GENERELL ==================== */
+* {
+    padding: 0 1%;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: Karla-Bold;
+    src: url("../fonts/Karla-Bold.ttf");
+}
+
+@font-face {
+    font-family: Karla-Regular;
+    src: url("../fonts/Karla-Regular.ttf");
+}
+
+@font-face {
+    font-family: Karla-Light;
+    src: url("../fonts/Karla-Light.ttf");
+}
+
+h1,
+h2,
+h3 {
+    font-family: Karla-Bold;
+    color: #323A45;
+    font-size: large;
+}
+
+p,
+figcaption,
+a {
+    font-family: Karla-Regular;
+    font-size: 1.1rem;
+    line-height: 18px;
+    color: #323A45;
+}
+
+a {
+    text-decoration: none;
+    color: #323A45;
+}
+
+/* section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} */
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5vh;
+    margin-top: 7vh;
+}
+
+/* ======================== HEADER ==================== */
+/* Navbar */
+nav {
+    height: 7vh;
+    /* background-color: aqua; */
+}
+
+
+
+/* ======================== MAIN ==================== */
+
+.priceContainer{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 85% 15%;
+    grid-template-rows: 80% 50%;
+    }
+    
+    .productName{
+        font-size: 1.5rem;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    
+    .producerName{
+        color: #b8b8b8;
+        font-size: 1.5rem;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    
+    
+    .price{
+        font-size: 1.5rem;
+    }
+
+/* ======================== FOOTER ==================== */
